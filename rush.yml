@@ -7,7 +7,7 @@ description: Extension component for Cpb. Created using Rush.
 
 version:
   number: auto
-  name: 'ra2'
+  name: 'ra3'
 
 authors:
   - Rahul
@@ -19,12 +19,12 @@ build:
 
   # If enabled, you will be able to use Java 8 language features in your extension.
   desugar:
-    enable: false
-    desugar_deps: false
+    enable: true
+    desugar_deps: true
 
 assets:
   # Extension icon. This can be a URL or a local image in 'assets' folder.
-  icon: icon.png
+  icon: icon.gif
   # Extension assets.
   # other:
   #   - my_awesome_asset.anything

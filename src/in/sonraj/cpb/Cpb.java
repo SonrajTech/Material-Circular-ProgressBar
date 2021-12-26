@@ -44,7 +44,7 @@ public class Cpb extends AndroidNonvisibleComponent {
   }
 
   @SimpleProperty(description = "Set progress color of the material circular progress bar.")
-  @DesignerProperty(editorType = PropertyTypeConstants.PROPERTY_TYPE_COLOR)
+  @DesignerProperty(editorType = PropertyTypeConstants.PROPERTY_TYPE_COLOR, defaultValue = DEFAULT_VALUE_COLOR_CYAN)
   public void ProgressColor(int color){
     this.progressColor =color;
   }

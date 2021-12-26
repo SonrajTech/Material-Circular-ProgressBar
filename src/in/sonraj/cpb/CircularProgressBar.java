@@ -10,12 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-/**
- * Simple single android view component that can be used to showing a round progress bar.
- * It can be customized with size, stroke size, colors and text etc.
- * Progress change will be animated.
- * Created by Kristoffer, http://kmdev.se
- */
+
 public class CircularProgressBar extends View {
 
     private int mViewWidth;
